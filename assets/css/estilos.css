@@ -9,10 +9,12 @@ h1,h2,h3,h4,h5,h6 {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: linear-gradient(to bottom, rgba(38, 39, 41, 0.829), rgba(33, 37, 41, 0.555)), url("https://images.pexels.com/photos/5779781/pexels-photo-5779781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+  background-blend-mode: normal;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  filter: saturate(130%);
 }
 
 /* Shape divider */

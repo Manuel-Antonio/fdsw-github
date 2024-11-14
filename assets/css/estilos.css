@@ -15,15 +15,51 @@ h1,h2,h3,h4,h5,h6 {
   background-position: left;
 }
 
-/* Mis trabajos */
-
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+/* Shape divider */
+.custom-shape-divider-top-1731543389 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
+.custom-shape-divider-top-1731543389 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 129px;
+}
+
+.custom-shape-divider-top-1731543389 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+/* Mis trabajos */
+
+#Mis-trabajos {
+  background-image: url("https://img.freepik.com/free-vector/linear-flat-abstract-lines-pattern_23-2148950145.jpg?t=st=1731543173~exp=1731546773~hmac=1be8746d35012f202162e909fd2205976d593c8be6271e419084c4837db5d9bc&w=826");
+  background-blend-mode: multiply;
+}
+
+#Mis-trabajos .card-img-container {
+  height: 400px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#Mis-trabajos .card-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+#Mis-trabajos .card-img-container img:hover {
+  transform: scale(1.1);
+}
 /* Contacto */
 
 #Contacto form label {
@@ -41,3 +77,5 @@ h1,h2,h3,h4,h5,h6 {
   }
 
 }
+
+
